@@ -37,7 +37,7 @@ public class SpriteSettingEditor : EditorWindow
 	//Double 클릭 체크용 시간 변수
 	float mClickTime = 0f;
 
-	[MenuItem("GameObject/Sprite Setting Tool", false, 11)]
+	[MenuItem("Tools/Sprite Setting Tool", false)]
     public static void OpenWindow()
     {
         if(window == null)
